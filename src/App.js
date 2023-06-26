@@ -1,13 +1,9 @@
 import './App.css';
-
+import Portfolio from "./Portfolio.js"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-Hello World        </p>
-        
-      </header>
+   <Portfolio />
     </div>
   );
 }
