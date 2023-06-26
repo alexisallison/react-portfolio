@@ -1,14 +1,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
+import "./Portfolio.css";
+import travel from "./images/Travel-app.png";
+import weather from "./images/weather-app.png";
+import dictionary from "./images/dictionary.png";
 
 export default function Portfolio() {
     return(
     <div className="Portfolio container">
-     
-    <header>
-    Hello World
-    </header>
-    <div className="hero">
+      <div className="hero">
       <p>👋Hi there, I am...</p>
       <h1>Alexis Allison</h1>
       <h3>Front End Developer in Ashland, OH</h3>
@@ -23,7 +23,7 @@ export default function Portfolio() {
       <div className="row mb-5">
         <div className="col d-none d-lg-block">
           <img
-            src="/images/Travel-app.png"
+            src={travel}
             class="project-image img-fluid"
             alt="HTML Project"
           />
@@ -59,7 +59,7 @@ export default function Portfolio() {
         </div>
         <div class="col d-none d-lg-block">
           <img
-            src="/images/weather-app.png"
+            src={weather}
             class="project-image img-fluid"
             alt="Weather App"
           />
@@ -68,7 +68,7 @@ export default function Portfolio() {
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
-            src="/images/dictionary.png"
+            src={dictionary}
             class="project-image img-fluid"
             alt="Dictionary App"
           />

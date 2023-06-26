@@ -1,0 +1,90 @@
+:root {
+    --first-color: #fbf0f0;
+    --second-color: #dfd3d3;
+    --third-color: #b8b0b0;
+    --fourth-color: #7c7575;
+    --fifth-color: #625c5c;
+    --head-font-family: "Merriweather", serif;
+    --default-font-family: "Poppins", sans-serif;
+  }
+
+  .Portfolio .container {
+    background-color: var(--first-color);
+    font-family: var(--default-font-family);
+    margin: 0px;
+  }
+
+  .Portfolio .hero {
+    background-color: var(--second-color);
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .Portfolio .hero p {
+    font-size: 36px;
+    margin: 5;
+    color: var(--fourth-color);
+  }
+  
+  .Portfolio .hero h1 {
+    color: var(--fifth-color);
+    font-family: var(--head-font-family);
+    font-size: 76px;
+    font-weight: bold;
+    margin: 5;
+  }
+  
+  .Portfolio .hero h3 {
+    color: var(--fourth-color);
+    line-height: 2;
+    font-size: 24px;
+    margin: 5;
+  }
+
+ .Portfolio .btn-branding {
+    color: var(--first-color);
+    background-color: var(--fifth-color);
+    border: 1px solid var(--fifth-color);
+    font-size: 16px;
+    line-height: 27px;
+    margin: 20px;
+  }
+  .project-description h2 {
+    font-size: 64px;
+    color: var(--fourth-color);
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--fourth-color);
+  }
+  
+  .btn-branding-outline {
+    color: var(--fifth-color);
+    background-color: var(--first-color);
+    border: 1px solid var(--fifth-color);
+    font-size: 16px;
+    line-height: 27px;
+  }
+  
+  .project-description {
+    padding: 120px 20px;
+  }
+  
+  .project-image {
+    background-color: var(--second-color);
+    padding: 40px 20px;
+    border-radius: 5px;
+  }
+  
+  .content-container {
+    text-align: justify;
+    padding: 60px 20px 100px;
+  }
+  
+  .content {
+    margin: 30px;
+  }
+  
+  
