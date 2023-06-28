@@ -8,25 +8,25 @@
     --default-font-family: "Poppins", sans-serif;
   }
 
-  .Portfolio .container {
+  .Home .container {
     background-color: var(--first-color);
     font-family: var(--default-font-family);
     margin: 0px;
   }
 
-  .Portfolio .hero {
+  .Home .hero {
     background-color: var(--second-color);
     text-align: center;
     padding: 80px 20px;
   }
   
-  .Portfolio .hero p {
+  .Home .hero p {
     font-size: 36px;
     margin: 5;
     color: var(--fourth-color);
   }
   
-  .Portfolio .hero h1 {
+  .Home .hero h1 {
     color: var(--fifth-color);
     font-family: var(--head-font-family);
     font-size: 76px;
@@ -34,14 +34,14 @@
     margin: 5;
   }
   
-  .Portfolio .hero h3 {
+  .Home .hero h3 {
     color: var(--fourth-color);
     line-height: 2;
     font-size: 24px;
     margin: 5;
   }
 
- .Portfolio .btn-branding {
+ .Home .btn-branding {
     color: var(--first-color);
     background-color: var(--fifth-color);
     border: 1px solid var(--fifth-color);
