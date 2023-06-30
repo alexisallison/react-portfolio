@@ -1,8 +1,9 @@
 import React from "react";
 
-export default funtion About() {
+function About() {
     return(
         <div className="About container">
         This is the About Page</div>
     );
 }
+export default About;

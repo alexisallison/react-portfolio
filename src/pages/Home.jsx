@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import "./Home.css";
+
 import travel from "./images/Travel-app.png";
 import weather from "./images/weather-app.png";
 import dictionary from "./images/dictionary.png";
