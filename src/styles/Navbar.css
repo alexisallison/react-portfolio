@@ -1,0 +1,31 @@
+.Navbar {
+    padding: 10px;
+      text-decoration: none;
+  color: #625c5c;;
+  transition: all 150ms ease-in-out;
+  }
+
+  ul {
+    margin: 0px;
+    padding: 0;
+    text-align: right;
+  }
+  
+  li {
+    display: inline;
+    list-style: none;
+    line-height: 75px;
+    margin-left: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--fifth-color);
+    transition: all 150ms ease-in-out;
+  }
+  
+
+
+  
+
+ 

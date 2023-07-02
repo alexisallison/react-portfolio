@@ -1,11 +1,11 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
+import "../styles/Home.css";
+import travel from "../images/Travel-app.png";
+import weather from "../images/weather-app.png";
+import dictionary from "../images/dictionary.png";
 
-import travel from "./images/Travel-app.png";
-import weather from "./images/weather-app.png";
-import dictionary from "./images/dictionary.png";
-
-export default function Home() {
+function Home() {
     return(
     <div className="Home container">
       <div className="hero">
@@ -89,3 +89,4 @@ export default function Home() {
     </div>
 );
 }
+export default Home;
