@@ -7,16 +7,16 @@ import "./styles/Navbar.css";
         <nav>
             <ul>
                 <li>
-                    <Link to="/Home">Home</Link>
+                    <Link to="/Home" className="navlink">Home</Link>
                 </li>
                 <li>
-                    <Link to="/About">About</Link>
+                    <Link to="/About" className="navlink">About</Link>
                 </li>
                 <li>
-                    <Link to="/Work">Work</Link>
+                    <Link to="/Work" className="navlink">Work</Link>
                 </li>
                 <li>
-                    <Link to="/Contact">Contact</Link>
+                    <Link to="/Contact" className="navlink">Contact</Link>
                 </li>
             </ul>
         </nav>

@@ -18,7 +18,7 @@
     margin-left: 15px;
   }
 
-  a {
+ .navlink {
     text-decoration: none;
     color: var(--fifth-color);
     transition: all 150ms ease-in-out;
