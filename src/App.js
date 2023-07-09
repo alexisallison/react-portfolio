@@ -6,20 +6,21 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Work from "./pages/Work.jsx";
 import Contact from "./pages/Contact.jsx";
-import Navbar from "./Navbar.jsx";
 import './styles/App.css';
 
 function App() {
   return (
     <Router>
-    <Navbar />
-    <Routes>
-      <Route path="/Home" element={<Home />} />
-      <Route index element={<Layout />} />
+   
+    <Routes> 
+      <Route path="/" element={<Layout />} >
+       <Route index element={<Home />} />
+
+      
       <Route path="/About" element={<About />} />
       <Route path="/Work" element={<Work />} />
       <Route path="/Contact" element={<Contact />} />
-      </Routes></Router>
+       </Route></Routes></Router>
     
   );
 }
