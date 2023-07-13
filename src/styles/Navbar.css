@@ -3,6 +3,8 @@
       text-decoration: none;
   color: #625c5c;;
   transition: all 150ms ease-in-out;
+  display: flex;
+  align-items:center ;
   }
 
   ul {
@@ -24,6 +26,10 @@
     transition: all 150ms ease-in-out;
   }
   
+  .logo {
+    max-width: 100px;
+    margin-right: 71%;
+  }
 
 
   
