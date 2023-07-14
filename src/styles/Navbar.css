@@ -5,12 +5,14 @@
   transition: all 150ms ease-in-out;
   display: flex;
   align-items:center ;
+  position: relative;
   }
 
   ul {
     margin: 0px;
     padding: 0;
     text-align: right;
+    margin-left: auto;
   }
   
   li {
@@ -28,9 +30,9 @@
   
   .logo {
     max-width: 100px;
-    margin-right: 71%;
   }
 
+  
 
   
 
