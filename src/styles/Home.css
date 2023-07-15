@@ -8,10 +8,17 @@
     --default-font-family: "Poppins", sans-serif;
   }
 
+ .Home {
+  background-color: var(--first-color); 
+  width: 100%;
+  margin: 0 auto;
+ }
+
   .Home .container {
     background-color: var(--first-color);
     font-family: var(--default-font-family);
     margin: 0px;
+   
   }
 
   .Home .hero {

@@ -6,6 +6,7 @@
   display: flex;
   align-items:center ;
   position: relative;
+  background-color: var(--first-color);
   }
 
   ul {
@@ -34,11 +35,18 @@
 
   .hamburger {
     display:none;
+    margin-left: auto;
+    background-color: var(--first-color);
+    color: var(--fifth-color);
+    border: 0;
   }
 
   @media screen and (max-width: 768px){
     .hamburger {
       display:block;
+    }
+    ul {
+      display: none;
     }
   }
 
